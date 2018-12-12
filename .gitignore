@@ -30,7 +30,7 @@ proguard/
 .navigation/
 
 # Android Studio captures folder
-captures/
+images/
 
 # IntelliJ
 *.iml
@@ -63,3 +63,8 @@ fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
 fastlane/readme.md
+
+.idea
+.DS_Store
+*.jks
+*.zip

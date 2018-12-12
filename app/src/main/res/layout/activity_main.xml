@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sanwuwy.demo.splitscreen.MainActivity"
+    >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/cover_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        >
+
+        <TextView
+            android:id="@+id/select"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="选取"
+            />
+
+        <TextView
+            android:id="@+id/erase"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/select"
+            android:gravity="center"
+            android:text="擦除"
+            />
+
+        <TextView
+            android:id="@+id/clear"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/erase"
+            android:gravity="center"
+            android:text="清空"
+            />
+
+        <TextView
+            android:id="@+id/save"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="保存"
+            />
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/save"
+            android:gravity="center"
+            android:text="取消"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
